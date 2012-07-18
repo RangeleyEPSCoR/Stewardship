@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F8F8F0"
+    android:orientation="vertical" >
+
+	<TextView   
+    	android:text="Stewardship Themes"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentLeft="true" 
+    	android:layout_margin="15dp"
+    	android:textSize="29dp"
+    	android:textStyle="bold"/>
+    
+    <RelativeLayout
+	    android:id="@+id/button1_layout"
+  		android:layout_width="fill_parent"
+    	android:layout_height="50dp" 
+    	android:background="#C8E0B0"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginLeft="90dp"
+    	android:layout_marginTop="100dp">
+    	
+	<TextView   
+    	android:text="Woods and Wildlife"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentRight="true" 
+    	android:layout_centerVertical="true"
+    	android:layout_margin="10dp"
+    	android:textSize="20dp"
+    	android:textColor="#505050"/>
+        
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginLeft="10dp"/>
+	
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    android:id="@+id/button2_layout"
+  		android:layout_width="fill_parent"
+    	android:layout_height="50dp" 
+    	android:background="#A8C0E0"
+    	android:layout_alignParentRight="true"
+    	android:layout_below="@id/button1_layout"
+    	android:layout_marginLeft="90dp"
+    	android:layout_marginTop="30dp">
+	    
+        <TextView   
+	    	android:text="Water"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentRight="true" 
+	    	android:layout_centerVertical="true"
+	    	android:layout_margin="10dp"
+	    	android:textSize="20dp"
+	    	android:textColor="#505050"/>
+    
+        
+		<Button
+		    android:id="@+id/button2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_below="@+id/button1"
+		    android:layout_centerHorizontal="true"
+		    android:layout_alignParentLeft="true" 
+		    android:layout_marginLeft="10dp"/>
+
+	</RelativeLayout>
+	
+     <RelativeLayout
+ 		android:id="@+id/button3_layout"
+  		android:layout_width="fill_parent"
+    	android:layout_height="50dp" 
+    	android:background="#FFC048"
+    	android:layout_alignParentRight="true"
+    	android:layout_below="@id/button2_layout"
+    	android:layout_marginLeft="90dp"
+    	android:layout_marginTop="30dp">
+		
+        <TextView   
+	    	android:text="Community"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentRight="true" 
+	    	android:layout_centerVertical="true"
+	    	android:layout_margin="10dp"
+	    	android:textSize="20dp"
+	    	android:textColor="#505050"/>
+	
+		<Button
+		    android:id="@+id/button3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_below="@+id/button2"
+		    android:layout_centerHorizontal="true"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="10dp"/>
+		
+	</RelativeLayout>
+	
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="#D86060"
+        android:padding="10dp"
+        android:text="About"
+        android:textColor="#505050"
+        android:textSize="20dp" />
+
+</RelativeLayout>
