@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DbAdapter {
 	
 	public static final String DATABASE_NAME = "stewardship.db";
-	public static final int DATABASE_VERSION = 6;
+	public static final int DATABASE_VERSION = 7;
 	
 	public static final String TABLE_locations = "locations";
 	
@@ -20,7 +20,8 @@ public class DbAdapter {
 	public static final String [] INSERT_DATA_locations = new String [] {
 		"INSERT INTO LOCATIONS values (1, 'University of Maine at Farmington', 1, 44.400241, -70.085118, 'Established in 1864 as Maines first public institution of higher education, the University of Maine at Farmington (UMF) is Maines public liberal arts college, offering quality programs in teacher education, human services and arts and sciences.  With enrollment limited to just 2,000 students, UMF is about the same size as many of New Englands most selective private colleges and offers many of the same advantages, yet at a very attractive price point — providing a tremendous college education value in a spectacular natural setting. The University of Maine at Farmington is a founding member of The Council of Public Liberal Arts Colleges (COPLAC) an exclusive national group of 26 public colleges and universities committed to providing superior liberal arts and sciences education.'," + R.drawable.btn_01_72px + ");",
 		"INSERT INTO LOCATIONS values (2, 'University of Maine at Farmington', 2, 44.400241, -70.085118, 'Water'," + R.drawable.btn_02_72px + ");",
-		"INSERT INTO LOCATIONS values (3, 'University of Maine at Farmington', 3, 44.400241, -70.085118, 'Community'," + R.drawable.btn_03_72px + ");"
+		"INSERT INTO LOCATIONS values (3, 'University of Maine at Farmington', 3, 44.400241, -70.085118, 'Community'," + R.drawable.btn_03_72px + ");",
+		"INSERT INTO LOCATIONS values (4, 'Our Lady of the Lakes Church', 3, 44.96402751394088, -70.77451320470583, 'Fly Rod, who converted to Catholicism, was responsible for raising $5,000 to build Our Lady of the Lakes Church located two blocks from the museum.'," + R.drawable.btn_03_72px + ");"
 	}; 
 
 	

@@ -146,24 +146,4 @@ public class MapScreen extends MapActivity{
 		mapOverlays.add(cmo);
 		return;
 	}
-	
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.layout.menu, menu);
-        return true;
-    }
-	
-	@Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection        
-        switch (item.getItemId()) {
-        case R.id.show_dialog:
-    		dialog.show();
-        	return true;
-        	
-        default:
-            return super.onOptionsItemSelected(item);
-        }
-    }
 }

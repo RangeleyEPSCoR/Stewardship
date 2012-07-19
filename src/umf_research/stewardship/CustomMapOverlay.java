@@ -60,7 +60,7 @@ public class CustomMapOverlay extends ItemizedOverlay {
 	  RelativeLayout titleLayout = (RelativeLayout) dialog.findViewById(R.id.title_bar_layout);
 	  RelativeLayout layoutRoot = (RelativeLayout) dialog.findViewById(R.id.layout_root);
 	  
-	  //shareButton.setBackgroundResource(R.drawable.arrow_share_button);
+	  shareButton.setBackgroundResource(R.drawable.arrow_share_button);
     
 	  
 	  
@@ -73,22 +73,25 @@ public class CustomMapOverlay extends ItemizedOverlay {
 	  // Set the title, body text, and theme icon for the dialog
 	  titleText.setText(dialogInfo.getString(0));
 	  text.setText(dialogInfo.getString(1));
-	  image.setImageResource(dialogInfo.getInt(2));
+	  //image.setImageResource(dialogInfo.getInt(2));
 	  
 	  // Set color for the dialog box depending on theme
 	  if (dialogInfo.getInt(3) == 1) {
 		  titleLayout.setBackgroundColor(0xFFC8E0B0);
 		  layoutRoot.setBackgroundColor(0xFFC8E0B0);
+		  image.setImageResource(R.drawable.btn_01_72px);
 	  }
 	  
 	  else if (dialogInfo.getInt(3) == 2) {
 		  titleLayout.setBackgroundColor(0xFFA8C0E0);
 		  layoutRoot.setBackgroundColor(0xFFA8C0E0);
+		  image.setImageResource(R.drawable.btn_02_72px);
 	  }
 	  
 	  else {
 		  titleLayout.setBackgroundColor(0xFFFFC048);
 		  layoutRoot.setBackgroundColor(0xFFFFC048);
+		  image.setImageResource(R.drawable.btn_03_72px);
 	  }
 	  
 	  // Close cursor and database
